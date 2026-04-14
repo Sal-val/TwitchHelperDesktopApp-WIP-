@@ -1,0 +1,45 @@
+# --- Node / React / Frontend ---
+node_modules/
+ui/node_modules/
+dist/
+ui/dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- .NET Core ---
+bin/
+obj/
+TestResults/
+*.swp
+*.*~
+project.lock.json
+.vs/
+
+# --- Electron.NET ---
+# This ignores the specific builds for the desktop app
+bin/Desktop/
+obj/Desktop/
+
+# --- Secrets & Environment ---
+.env
+.env.local
+twitch_token
+history_sas
+live_sas
+
+# --- Editor / IDE ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.user
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
